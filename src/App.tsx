@@ -32,7 +32,7 @@ export const App: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#F9F6F0] text-[#231a13] relative selection:bg-[#F59E0B] selection:text-white">
+    <div className="min-h-screen flex flex-col bg-[#FDFBF7] text-[#5D4037] relative selection:bg-[#D97706] selection:text-white">
       {/* Paper Grain Overlay */}
       <div className="fixed inset-0 grain-overlay z-40 pointer-events-none" />
 
@@ -60,10 +60,10 @@ export const App: React.FC = () => {
             />
 
             <div className="max-w-7xl mx-auto px-6 md:px-16 pt-8 pb-4">
-              <span className="text-xs uppercase font-semibold tracking-widest text-[#8d4b00] block mb-2 text-center">
+              <span className="text-xs uppercase font-semibold tracking-widest text-[#D97706] block mb-2 text-center">
                 Hands-On Masterclasses
               </span>
-              <h2 className="font-serif text-3xl sm:text-4xl text-[#3E2723] font-bold text-center">
+              <h2 className="font-serif text-3xl sm:text-4xl text-[#5D4037] font-bold text-center">
                 Featured Culinary Programs
               </h2>
             </div>
@@ -91,13 +91,13 @@ export const App: React.FC = () => {
         {currentPage === 'classes' && (
           <div className="pt-8 pb-16 space-y-8 animate-fadeIn">
             <div className="text-center max-w-2xl mx-auto px-6">
-              <span className="text-xs uppercase font-semibold text-[#8d4b00] tracking-widest block mb-2">
+              <span className="text-xs uppercase font-semibold text-[#D97706] tracking-widest block mb-2">
                 Curriculum
               </span>
-              <h1 className="font-serif text-4xl sm:text-5xl text-[#3E2723] font-bold mb-4">
+              <h1 className="font-serif text-4xl sm:text-5xl text-[#5D4037] font-bold mb-4">
                 Upcoming Masterclasses
               </h1>
-              <p className="text-[#77574d] text-sm md:text-base leading-relaxed">
+              <p className="text-[#83746B] text-sm md:text-base leading-relaxed">
                 Small-batch workshops limited to 8 attendees. Each class includes step-by-step guidance, take-home baked goods, and starter kits.
               </p>
             </div>

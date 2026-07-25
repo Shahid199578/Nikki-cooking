@@ -4,18 +4,18 @@
   --font-serif: "Playfair Display", Georgia, serif;
   --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
 
-  --color-flour-cream: #F9F6F0;
-  --color-parchment: #F2E8D5;
-  --color-burnt-umber: #3E2723;
-  --color-apricot-glaze: #F59E0B;
-  --color-primary: #8d4b00;
+  --color-flour-cream: #FDFBF7;
+  --color-parchment: #F3EDE6;
+  --color-burnt-umber: #5D4037;
+  --color-apricot-glaze: #D97706;
+  --color-primary: #D97706;
   --color-on-primary: #ffffff;
-  --color-secondary: #77574d;
+  --color-secondary: #83746B;
   --color-on-secondary: #ffffff;
-  --color-background: #fff8f5;
-  --color-on-background: #231a13;
-  --color-surface: #fff8f5;
-  --color-surface-container-low: #fff1e9;
+  --color-background: #FDFBF7;
+  --color-on-background: #5D4037;
+  --color-surface: #FDFBF7;
+  --color-surface-container-low: #FDF8F0;
   --color-surface-container-high: #f7e5d9;
 }
 

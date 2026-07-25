@@ -9,13 +9,13 @@ export const ReviewsSection: React.FC<ReviewsSectionProps> = ({ reviews }) => {
   return (
     <section className="py-20 px-6 md:px-16 max-w-7xl mx-auto">
       <div className="text-center mb-12 max-w-2xl mx-auto">
-        <span className="text-xs uppercase font-semibold tracking-widest text-[#8d4b00] block mb-2">
+        <span className="text-xs uppercase font-semibold tracking-widest text-[#D97706] block mb-2">
           Student Voices
         </span>
-        <h2 className="font-serif text-3xl md:text-4xl text-[#3E2723] font-bold">
+        <h2 className="font-serif text-3xl md:text-4xl text-[#5D4037] font-bold">
           Loved by Home Bakers & Chefs
         </h2>
-        <p className="text-[#77574d] text-sm md:text-base mt-2">
+        <p className="text-[#83746B] text-sm md:text-base mt-2">
           Hear from graduates who transformed their baking confidence in our Ghaziabad studio.
         </p>
       </div>
@@ -24,26 +24,26 @@ export const ReviewsSection: React.FC<ReviewsSectionProps> = ({ reviews }) => {
         {reviews.map((rev) => (
           <div
             key={rev.id}
-            className="bg-[#F2E8D5] p-8 rounded-2xl border border-[#77574d]/10 flex flex-col justify-between shadow-xs hover:shadow-md transition-shadow"
+            className="bg-[#F3EDE6] p-8 rounded-2xl border border-[#83746B]/10 flex flex-col justify-between shadow-xs hover:shadow-md transition-shadow"
           >
             <div>
-              <div className="flex gap-1 text-[#F59E0B] mb-4">
+              <div className="flex gap-1 text-[#D97706] mb-4">
                 {[...Array(rev.rating)].map((_, i) => (
                   <span key={i} className="material-symbols-outlined fill-1 text-lg">
                     star
                   </span>
                 ))}
               </div>
-              <p className="text-[#3E2723] text-sm leading-relaxed italic mb-6">
+              <p className="text-[#5D4037] text-sm leading-relaxed italic mb-6">
                 "{rev.comment}"
               </p>
             </div>
 
-            <div className="pt-4 border-t border-[#77574d]/10">
-              <span className="font-serif text-lg font-bold text-[#3E2723] block">
+            <div className="pt-4 border-t border-[#83746B]/10">
+              <span className="font-serif text-lg font-bold text-[#5D4037] block">
                 {rev.author}
               </span>
-              <span className="text-xs text-[#8d4b00] font-semibold block">
+              <span className="text-xs text-[#D97706] font-semibold block">
                 {rev.role} • {rev.className}
               </span>
             </div>
