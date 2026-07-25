@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+
+  --color-flour-cream: #F9F6F0;
+  --color-parchment: #F2E8D5;
+  --color-burnt-umber: #3E2723;
+  --color-apricot-glaze: #F59E0B;
+  --color-primary: #8d4b00;
+  --color-on-primary: #ffffff;
+  --color-secondary: #77574d;
+  --color-on-secondary: #ffffff;
+  --color-background: #fff8f5;
+  --color-on-background: #231a13;
+  --color-surface: #fff8f5;
+  --color-surface-container-low: #fff1e9;
+  --color-surface-container-high: #f7e5d9;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-flour-cream);
+    color: var(--color-on-background);
+  }
+
+  h1, h2, h3, h4, .font-serif-headline {
+    font-family: var(--font-serif);
+  }
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+.material-symbols-outlined.fill-1 {
+  font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+/* Paper grain overlay */
+.grain-overlay {
+  background-image: url("https://www.transparenttextures.com/patterns/natural-paper.png");
+  opacity: 0.15;
+  pointer-events: none;
+}
+
+.card-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+}
+
